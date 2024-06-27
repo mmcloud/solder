@@ -1,0 +1,10 @@
+logger:
+  kind: slog
+  level: Debug
+service:
+  kind: serve
+  name: transaction
+  short: A short description of the transaction service
+  long: A long description of the transaction service
+  example: |
+    solder serve --config config.yaml
